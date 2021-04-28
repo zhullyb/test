@@ -7,3 +7,9 @@
         - uses: zhullyb/build-aur-action@master
           with:
             repo-name: linux-xanmod-cacule-uksm-cjktty
+        - uses: ncipollo/release-action@v1.6.1
+          with:
+            allowUpdates: true
+            tag: "out"
+            artifacts: "./*/*.zst"
+            token: ${{ secrets.GITHUB_TOKEN }}
