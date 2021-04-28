@@ -1,0 +1,9 @@
+    name: BUILD
+    on: push
+    jobs:
+      build:
+        runs-on: ubuntu-latest
+        steps:
+        - uses: zhullyb/build-aur-action@master
+          with:
+            repo-name: linux-xanmod-cacule-uksm-cjktty
