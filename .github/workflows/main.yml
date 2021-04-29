@@ -6,7 +6,7 @@
         steps:
         - uses: zhullyb/build-aur-action@master
           with:
-            repo-name: python38
+            repo-name: python37
         - uses: ncipollo/release-action@v1.6.1
           with:
             allowUpdates: true
