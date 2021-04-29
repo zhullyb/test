@@ -6,7 +6,7 @@
         steps:
         - uses: zhullyb/build-aur-action@master
           with:
-            repo-name: libdap
+            repo-name: python38
         - uses: ncipollo/release-action@v1.6.1
           with:
             allowUpdates: true
