@@ -6,7 +6,7 @@
         steps:
         - uses: zhullyb/build-aur-action@master
           with:
-            repo-name: v2raya-git 
+            repo-name: linux-ck
         - uses: ncipollo/release-action@v1.6.1
           with:
             allowUpdates: true
