@@ -6,7 +6,7 @@
         steps:
         - uses: zhullyb/build-aur-action@master
           with:
-            repo-name: v2raya-git
+            repo-name: linux-xanmod-cacule-uksm-cjktty
 
         - uses: ncipollo/release-action@v1.6.1
           with:
