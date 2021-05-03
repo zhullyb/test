@@ -5,7 +5,7 @@
         runs-on: ubuntu-latest
         steps:
         
-        - uses: zhullyb/build-aur-action@master
+        - uses: zhullyb/build-aur-action@yay
           with:
             repo-name: mongodb
 
