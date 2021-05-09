@@ -7,7 +7,7 @@
         
         - uses: zhullyb/build-aur-action@master
           with:
-            repo-name: linux-xanmod-cacule-uksm-cjktty 
+            repo-name: motrix
 
         - uses: ncipollo/release-action@v1.6.1
           with:
