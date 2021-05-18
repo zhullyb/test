@@ -7,7 +7,7 @@
         
         - uses: zhullyb/build-aur-action@master
           with:
-            repo-name: flashplugin
+            repo-name: microsoft-edge-beta-bin
 
         - uses: ncipollo/release-action@v1.6.1
           with:
