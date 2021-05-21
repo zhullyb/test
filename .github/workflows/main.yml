@@ -7,8 +7,7 @@
         
         - uses: zhullyb/build-aur-action@master
           with:
-            repo-name: microsoft-edge-beta-bin
-
+            repo-name: webkitgtk
         - uses: ncipollo/release-action@v1.6.1
           with:
             allowUpdates: true
