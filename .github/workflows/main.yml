@@ -7,7 +7,7 @@
         
         - uses: zhullyb/build-aur-action@master
           with:
-            repo-name: heroku-cli
+            repo-name: balena-etcher
         - uses: ncipollo/release-action@v1.6.1
           with:
             allowUpdates: true
