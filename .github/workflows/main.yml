@@ -7,7 +7,7 @@
         
         - uses: zhullyb/build-aur-action@master
           with:
-            repo-name: com.qq.weixin.spark
+            repo-name: linux-xanmod
         - uses: ncipollo/release-action@v1.6.1
           with:
             allowUpdates: true
