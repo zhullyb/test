@@ -7,7 +7,7 @@
         
         - uses: zhullyb/build-aur-action@master
           with:
-            repo-name: linux-xanmod
+            repo-name: marktext
         - uses: ncipollo/release-action@v1.6.1
           with:
             allowUpdates: true
